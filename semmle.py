@@ -12,6 +12,9 @@ if a == 1:
 if b == 1:
     pass
 else     :
-    print 'b is not 1'
+    print('b is not 1')
 
 makeStatement()
+
+y = [x**2 for x in A ]
+print(y)
